@@ -1,0 +1,1472 @@
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 02:19:41,523 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 02:19:41,525 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 02:19:41,526 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+2026-06-23 02:19:41,539 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\__init__.py
+2026-06-23 02:19:41,551 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\dataclasses.py
+2026-06-23 02:19:41,562 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\class_validators.py
+2026-06-23 02:19:41,573 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\errors.py
+2026-06-23 02:19:41,584 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\typing.py
+2026-06-23 02:19:41,602 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\utils.py
+2026-06-23 02:19:41,609 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\version.py
+2026-06-23 02:19:41,619 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\config.py
+2026-06-23 02:19:41,628 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\error_wrappers.py
+2026-06-23 02:19:41,635 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\json.py
+2026-06-23 02:19:41,647 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\color.py
+2026-06-23 02:19:41,660 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\networks.py
+2026-06-23 02:19:41,677 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\validators.py
+2026-06-23 02:19:41,687 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\datetime_parse.py
+2026-06-23 02:19:41,720 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\types.py
+2026-06-23 02:19:41,757 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\fields.py
+2026-06-23 02:19:41,778 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\main.py
+2026-06-23 02:19:41,785 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\parse.py
+2026-06-23 02:19:41,804 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\schema.py
+2026-06-23 02:19:41,815 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\annotated_types.py
+2026-06-23 02:19:41,826 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\decorator.py
+2026-06-23 02:19:41,836 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\env_settings.py
+2026-06-23 02:19:41,844 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\pydantic\v1\tools.py
+2026-06-23 02:19:41,985 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\__init__.py
+2026-06-23 02:19:41,996 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_connection.py
+2026-06-23 02:19:42,006 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_events.py
+2026-06-23 02:19:42,014 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_abnf.py
+2026-06-23 02:19:42,023 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_headers.py
+2026-06-23 02:19:42,029 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_util.py
+2026-06-23 02:19:42,046 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_readers.py
+2026-06-23 02:19:42,052 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_receivebuffer.py
+2026-06-23 02:19:42,060 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_state.py
+2026-06-23 02:19:42,070 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_writers.py
+2026-06-23 02:19:42,076 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\h11\_version.py
+INFO:     Started server process [24768]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52081 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 02:19:42,576 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 02:19:42,637 - INFO - api_server.py:860 - New session created: 68bb8297-5da7-4754-ab07-2fe377fcaea2
+INFO:     127.0.0.1:52084 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 02:19:42,651 - INFO - envs.py:90 - No .env file found for app
+2026-06-23 02:19:42,651 - INFO - envs.py:90 - No .env file found for app
+INFO:     127.0.0.1:52085 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 02:20:06,963 - ERROR - _node_runner.py:153 - Node execution failed with exception
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:20:07,017 - ERROR - runners.py:819 - Root node expense_agent failed.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:20:07,035 - ERROR - api_server.py:1601 - Error in event_generator: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1573, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1017, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 574, in _run_node_async
+    await self._cleanup_root_task(task, self.agent.name)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 02:20:49,028 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 02:20:49,029 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 02:20:49,030 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [31540]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52124 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 02:20:49,531 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 02:20:49,568 - INFO - api_server.py:860 - New session created: 7a0b9be3-a54f-495c-842f-f6ef2eec9698
+INFO:     127.0.0.1:52125 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 02:20:49,576 - INFO - envs.py:90 - No .env file found for app
+2026-06-23 02:20:49,577 - INFO - envs.py:90 - No .env file found for app
+INFO:     127.0.0.1:52126 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 02:21:13,801 - ERROR - _node_runner.py:153 - Node execution failed with exception
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:21:13,852 - ERROR - runners.py:819 - Root node expense_agent failed.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:21:13,873 - ERROR - api_server.py:1601 - Error in event_generator: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1573, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1017, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 574, in _run_node_async
+    await self._cleanup_root_task(task, self.agent.name)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 02:28:44,404 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 02:28:44,406 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 02:28:44,407 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [23788]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52356 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 02:28:45,129 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 02:28:45,160 - INFO - api_server.py:860 - New session created: f6618ddf-cc8b-4c91-b348-728f71fb08d8
+INFO:     127.0.0.1:52359 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 02:28:45,173 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+2026-06-23 02:28:45,174 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+INFO:     127.0.0.1:52360 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 02:29:09,390 - ERROR - _node_runner.py:153 - Node execution failed with exception
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:29:09,447 - ERROR - runners.py:819 - Root node expense_agent failed.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:29:09,467 - ERROR - api_server.py:1601 - Error in event_generator: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1573, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1017, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 574, in _run_node_async
+    await self._cleanup_root_task(task, self.agent.name)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 02:32:28,826 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 02:32:28,827 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 02:32:28,829 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [22332]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53539 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 02:32:29,196 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 02:32:29,229 - INFO - api_server.py:860 - New session created: 5f764b14-c45c-4a0e-b5d2-f50919ca6adf
+INFO:     127.0.0.1:53542 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 02:32:29,238 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+2026-06-23 02:32:29,239 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+INFO:     127.0.0.1:53543 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 02:32:53,533 - ERROR - _node_runner.py:153 - Node execution failed with exception
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:32:53,580 - ERROR - runners.py:819 - Root node expense_agent failed.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2026-06-23 02:32:53,598 - ERROR - api_server.py:1601 - Error in event_generator: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1573, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1017, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 574, in _run_node_async
+    await self._cleanup_root_task(task, self.agent.name)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 815, in _cleanup_root_task
+    await task
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 560, in _drive_root_node
+    raise ctx.error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 135, in run
+    await self._execute_node(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 255, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_node_runner.py", line 269, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_base_node.py", line 217, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 559, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\workflow\_llm_agent_wrapper.py", line 383, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<22 lines>...
+          break
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\base_agent.py", line 305, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\agents\llm_agent.py", line 515, in _run_async_impl
+    async for event in agen:
+    ...<5 lines>...
+        should_pause = True
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 889, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 968, in _run_one_step_async
+    async for llm_response in agen:
+    ...<13 lines>...
+          yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1362, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1340, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 1423, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 408, in _run_and_handle_error
+    raise model_error
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\flows\llm_flows\base_llm_flow.py", line 385, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 190, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 486, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 358, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\shree\AppData\Roaming\uv\python\cpython-3.13.14-windows-x86_64-none\Lib\functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\models\google_llm.py", line 352, in api_client
+    return Client(**kwargs)
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 341, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\client.py", line 392, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 748, in __init__
+    credentials, self.project = load_auth(project=None)
+                                ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\genai\_api_client.py", line 202, in load_auth
+    credentials, loaded_project_id = google.auth.default(  # type: ignore[no-untyped-call]
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        scopes=['https://www.googleapis.com/auth/cloud-platform'],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 02:48:01,212 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 02:48:01,213 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 02:48:01,216 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [28564]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60396 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 02:48:01,750 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 02:48:01,802 - INFO - api_server.py:860 - New session created: 596e9740-5881-4a24-a18d-3fa96e43cd41
+INFO:     127.0.0.1:60399 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 02:48:01,819 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+2026-06-23 02:48:01,821 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+INFO:     127.0.0.1:60400 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 02:48:02,025 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\__init__.py
+2026-06-23 02:48:02,039 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_api.py
+2026-06-23 02:48:02,056 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_models.py
+2026-06-23 02:48:02,066 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\__init__.py
+2026-06-23 02:48:02,078 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\connection.py
+2026-06-23 02:48:02,096 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_backends\sync.py
+2026-06-23 02:48:02,103 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_exceptions.py
+2026-06-23 02:48:02,110 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_utils.py
+2026-06-23 02:48:02,118 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_backends\base.py
+2026-06-23 02:48:02,126 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_ssl.py
+2026-06-23 02:48:02,136 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_synchronization.py
+2026-06-23 02:48:02,145 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_trace.py
+2026-06-23 02:48:02,157 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\http11.py
+2026-06-23 02:48:02,165 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\interfaces.py
+2026-06-23 02:48:02,177 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py
+2026-06-23 02:48:02,187 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\http_proxy.py
+2026-06-23 02:48:02,200 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\http2.py
+2026-06-23 02:48:02,211 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_sync\socks_proxy.py
+2026-06-23 02:48:02,222 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\__init__.py
+2026-06-23 02:48:02,234 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\connection.py
+2026-06-23 02:48:02,242 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_backends\auto.py
+2026-06-23 02:48:02,254 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\http11.py
+2026-06-23 02:48:02,263 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\interfaces.py
+2026-06-23 02:48:02,274 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\connection_pool.py
+2026-06-23 02:48:02,286 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\http_proxy.py
+2026-06-23 02:48:02,301 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\http2.py
+2026-06-23 02:48:02,311 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_async\socks_proxy.py
+2026-06-23 02:48:02,320 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_backends\mock.py
+2026-06-23 02:48:02,330 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_backends\anyio.py
+2026-06-23 02:48:02,339 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\httpcore\_backends\trio.py
+2026-06-23 02:48:02,407 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 02:48:07,076 - INFO - google_llm.py:279 - Response received from the model.
+2026-06-23 02:48:07,171 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 02:48:09,051 - INFO - google_llm.py:279 - Response received from the model.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 02:50:55,041 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 02:50:55,042 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 02:50:55,043 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [18628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49709 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 02:50:55,478 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 02:50:55,524 - INFO - api_server.py:860 - New session created: b441ad61-521a-4b82-8ec1-33ecd96137ae
+INFO:     127.0.0.1:49713 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 02:50:55,539 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+2026-06-23 02:50:55,540 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+INFO:     127.0.0.1:49714 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 02:50:55,749 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 02:51:04,253 - INFO - google_llm.py:279 - Response received from the model.
+2026-06-23 02:51:04,363 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 02:51:13,363 - INFO - google_llm.py:279 - Response received from the model.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 03:11:25,360 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 03:11:25,360 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 03:11:25,361 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [22008]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58644 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 03:11:25,679 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py
+2026-06-23 03:11:25,705 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 03:11:25,737 - INFO - api_server.py:860 - New session created: 998ef672-0b9d-4dd6-aebd-75ba7ab1fcdb
+INFO:     127.0.0.1:58645 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 03:11:25,749 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+2026-06-23 03:11:25,751 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+INFO:     127.0.0.1:58646 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 03:11:25,858 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py
+2026-06-23 03:11:25,966 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 03:11:28,275 - INFO - google_llm.py:279 - Response received from the model.
+2026-06-23 03:11:28,356 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 03:11:30,809 - INFO - google_llm.py:279 - Response received from the model.
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-23 03:12:16,681 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-23 03:12:16,681 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+2026-06-23 03:12:16,682 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\shree\agy-cli-projects\expense-agent
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [31784]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55871 - "GET / HTTP/1.1" 404 Not Found
+2026-06-23 03:12:17,033 - INFO - local_storage.py:64 - Creating local session service at C:\Users\shree\agy-cli-projects\expense-agent\app\.adk\session.db
+2026-06-23 03:12:17,076 - INFO - api_server.py:860 - New session created: 1f13fcf3-18a0-4b36-b3fe-3560fe45952c
+INFO:     127.0.0.1:55874 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-23 03:12:17,105 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+2026-06-23 03:12:17,106 - INFO - envs.py:83 - Loaded .env file for app at C:\Users\shree\agy-cli-projects\expense-agent\.env
+INFO:     127.0.0.1:55875 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\shree\agy-cli-projects\expense-agent\.venv\Lib\site-packages\google\adk\tools\function_tool.py:95: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  build_function_declaration(
+2026-06-23 03:12:17,358 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 03:12:24,409 - INFO - google_llm.py:279 - Response received from the model.
+2026-06-23 03:12:24,502 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 03:12:26,212 - INFO - google_llm.py:279 - Response received from the model.
+2026-06-23 03:12:26,309 - INFO - google_llm.py:210 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.GEMINI_API, stream: False
+2026-06-23 03:12:28,593 - INFO - google_llm.py:279 - Response received from the model.

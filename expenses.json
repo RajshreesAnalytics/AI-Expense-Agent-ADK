@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "amount": 20,
+    "category": "Meals",
+    "description": "Meal at Burger Joint",
+    "merchant": "Burger Joint",
+    "date": "2026-06-23",
+    "status": "approved"
+  },
+  {
+    "id": 2,
+    "amount": 200,
+    "category": "Travel",
+    "description": "Flight to Mumbai",
+    "merchant": "Airline",
+    "date": "2026-06-23",
+    "status": "pending_manager_approval"
+  }
+]
