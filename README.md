@@ -15,4 +15,10 @@ An intelligent corporate expense management agent built with Google ADK 2.0 duri
 ## Built By
 Rajshree | Data Analyst | [LinkedIn](https://linkedin.com/in/rajshreesanalytics)
 
+## Agent Output Demo
 
+### Auto-Approved (Under $100)
+![Expense Approved](images/1000128193.jpg)
+
+### Pending Manager Approval ($100+)
+![Pending Approval](images/1000128194.jpg)
