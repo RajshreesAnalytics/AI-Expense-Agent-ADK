@@ -18,7 +18,7 @@ Rajshree | Data Analyst | [LinkedIn](https://linkedin.com/in/rajshreesanalytics)
 ## Agent Output Demo
 
 ### Auto-Approved (Under $100)
-![Expense Approved](images/1000128193.jpg)
+![Expense Approved](images/Agent_Approved.png)
 
 ### Pending Manager Approval ($100+)
-![Pending Approval](images/1000128194.jpg)
+![Pending Approval](images/Agent_Denied_Approval.png)
