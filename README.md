@@ -13,7 +13,7 @@ An intelligent corporate expense management agent built with Google ADK 2.0 duri
 - Google Agents CLI
 
 ## Built By
-Rajshree | Data Analyst | [LinkedIn](https://linkedin.com/in/rajshreesanalytics)
+Rajshree | Data Analyst |
 
 ## Agent Output Demo
 
